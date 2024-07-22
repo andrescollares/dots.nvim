@@ -48,7 +48,7 @@ return {
   -- },
 
   {
-    "lsp_signature.nvim",
+    "ray-x/lsp_signature.nvim",
     opts = { -- customize the signature appearance
       hint_enable = true,
     },
