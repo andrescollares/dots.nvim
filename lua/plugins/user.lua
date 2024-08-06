@@ -3,6 +3,12 @@
 
 ---@type LazySpec
 return {
+  {
+    "ray-x/lsp_signature.nvim",
+    opts = { -- customize the signature appearance
+      hint_enable = true,
+    },
+  },
 
   -- == Examples of Adding Plugins ==
 
@@ -46,13 +52,6 @@ return {
   --     return opts
   --   end,
   -- },
-
-  {
-    "ray-x/lsp_signature.nvim",
-    opts = { -- customize the signature appearance
-      hint_enable = true,
-    },
-  },
 
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
